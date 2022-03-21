@@ -115,6 +115,7 @@ const init = function() {
     paginationView.addHandlerClick(controlPagination);
     addRecipeView.addHandlerUpload(controlAddRecipe);
     recipeView.addHandlerAddBookmark(controlAddBookmark);
+    console.log('hi testing continuous integration');
 };
 init();
 //window.addEventListener('hashchange', controlRecipes);
